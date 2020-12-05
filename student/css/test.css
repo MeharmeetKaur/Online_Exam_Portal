@@ -1,0 +1,16 @@
+body{ background-image: linear-gradient(blue, white);
+    background-repeat: no-repeat;
+    font: 14px sans-serif;
+    padding: 20px;}
+
+.wrapper1
+{
+	width: 350px;
+	padding: 20px;
+	margin:auto;
+	margin-left: 300px;
+	background-color: white;
+	margin-top: 20px;
+	box-shadow: 5px 10px 20px inset;
+	border-radius: 25px;
+}

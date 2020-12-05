@@ -1,0 +1,38 @@
+
+<html lang=''>
+<head>
+	<meta charset='utf-8'>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>UPLOAD</title>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/ques.css" type="text/css">
+	
+	</head>
+	<body>
+		<h1>Upload Questions</h1>
+		<div class="d-flex justify-content-center align-items-center container">
+			<div class="row" >
+				<form class="form-inline" action="upload.php" method="get">
+				<div class="col-sm-12 mt-3 wrapper">
+
+					<h3>Enter Subject</h3>
+					<br>
+					<br>
+						<input type=text placeholder="Enter the subject" name="cat">
+						<br>
+						<br>
+						<br>
+					<h3>Select the Difficulty level</h3>
+						<br>
+						<br>
+						<input type="radio" name="qtype" value="Easy">Easy<br><br>
+						<input type="radio" name="qtype" value="Moderate">Moderate<br><br>
+						<input type="radio" name="qtype" value="Hard">Hard<br><br>
+						<input type="submit" class="btn btn-primary" name="Submit" value="Next" formaction="upload.php">
+				</div>
+			</form>
+		</div>
+	</div>
+	</body>
+	</html>

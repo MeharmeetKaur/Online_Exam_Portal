@@ -1,0 +1,23 @@
+body{
+	background-image: linear-gradient(blue, white);
+	background-repeat: no-repeat;
+	font: 14px sans-serif;
+}
+.wrapper
+{
+	width: 500px;
+	height: 400px;
+	padding: 50px;
+	margin:auto;
+	
+	background-color: white;
+	margin-top: 20px;
+	box-shadow: 5px 10px 20px inset;
+	border-radius: 25px;
+}
+h1{
+	text-align: center;
+	color: white;
+	padding: 30px;
+	font:40px sans-serif;
+}
